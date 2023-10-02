@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.header {
+    height: 15vh;
+    background-color: red;
+}
+
+.links {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.button {
+    align-self: center;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    background-color: green;
+    width: 15vw;
+}
+
+.main {
+    height: 70vh;
+    width: 70vw;
+    /* background: brown; */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.animate-me {
+    width: 40%;
+    margin: 70% auto;
+}
+
+.footer {
+    transform: translateY(100%);
+    height: 15vh;
+    background-color: blue;
+}
